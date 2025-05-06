@@ -1,3 +1,5 @@
+[ [ko](https://github.com/Team-WeQuiz/wequiz) ] | [ [en](https://github.com/noooey/wequiz) ]
+
 </br>
 <div align='center'>
 <a href='https://github.com/Team-WeQuiz/wequiz'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/6e9d764d-6be1-4c71-aa00-51aaee0dfa3e"></a>
@@ -5,6 +7,8 @@
 <h3>
  🎲 Shall we quiz?... <a href="https://wequiz.kr/" target='_blank'>Click here!</a>
 </h3>
+
+**The service is currently not running due to server costs.*
 
 <a href="https://team-wequiz.github.io/wequiz" target='_blank'> 🌈 Introduction Page</a>
 
@@ -15,28 +19,28 @@
 </br>
 
 ## 🤔 Overview
-AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
+A multiplayer quiz service where you can solve AI-generated questions with friends.
 
 </br>
 </br>
 
 ## 🖱️ Usage
-**1. PDF 자료를 퀴즈로 변환**  
-> 유저가 pdf 파일을 입력하면 내용을 파싱 및 벡터화 하여 문서 내용을 기반으로 LLM이 퀴즈를 생성합니다.
+**1. Convert PDF content into quizzes**  
+> Users upload a PDF file, which is parsed and vectorized. Based on the extracted content, an LLM generates customized quiz questions.
 
-**2. 퀴즈 방 생성**  
-> 사용자들이 해당 퀴즈를 풀어볼 수 있는 방을 생성합니다.  
-> 간단한 이모지 및 채팅으로 의사소통을 할 수 있습니다.
+**2. Create a quiz room**  
+> A room is created where users can join to solve the quiz together.
+> Users can communicate using simple emojis and chat messages.  
 
-**3. 실시간 퀴즈 풀기**  
-> 생성된 방에서 게임이 시작되면, 사용자는 실시간으로 퀴즈를 풀어볼 수 있습니다.  
-> 문제 풀이는 순서대로 진행되며, 과반수가 해당 문제를 풀었을 경우 짧은 카운트 다운 후 다음 문제로 넘어갑니다.  
-> 실시간으로 정답 여부에 따라 참여자들에게 점수가 부여됩니다.  
-> 간단한 이모지로 의사소통을 할 수 있습니다.    
+**3. Real-time quiz solving**  
+> Once the game starts, users solve questions in real-time.
+> Questions are presented sequentially, and when a majority of players have answered, the game moves to the next question after a short countdown.
+> Scores are updated live based on correct answers.
+> Light interactions through emojis are supported during the game.  
 
-**4. 정답 공유**  
-> 퀴즈가 모두 끝난 후, 최종 성적표가 제공됩니다.  
-> 사용자는 서로가 작성한 답을 공유할 수 있으며, 이에 대한 토론을 나눌 수 있습니다.  
+**4. Share and discuss answers**  
+> After the quiz ends, a final scoreboard is shown.
+> Users can view and share each other’s answers and engage in discussion about them. 
  
 </br>
 </br>
@@ -52,9 +56,9 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
             <td align='center'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/ad07f448-9791-4a0e-83a0-e4814f270eaa" width="320"></td>
           </tr>
           <tr>
-            <td align='center'>시작 페이지</td>
-            <td align='center'>메인 로비</td>
-            <td align='center'>방 만들기</td>
+            <td align='center'>Start Page</td>
+            <td align='center'>Main Lobby</td>
+            <td align='center'>Create Room</td>
           </tr>
           <tr>
             <td align='center'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/ac3b2e52-5a5f-4806-b0c7-f29ce377f149" width="320"></td>
@@ -62,9 +66,9 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
             <td align='center'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/072351f1-e2b8-4894-b656-8e650708636e" width="320"></td>
           </tr>
           <tr>
-            <td align='center'>방 접속</td>
-            <td align='center'>퀴즈 풀이</td>
-            <td align='center'>정답 확인</td>
+            <td align='center'>Join Room</td>
+            <td align='center'>Solve Quiz</td>
+            <td align='center'>View Answers</td>
           </tr>
         </tr>
     </tbody>
@@ -79,7 +83,7 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
     <tbody>
         <tr>
           <tr>
-            <td align='center'>전체 아키텍처</td>
+            <td align='center'>Overall Architecture</td>
           </tr>
           <tr>
             <td align='center'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/a0d686f6-297d-4003-a9e5-21a24efa693c"></td>
@@ -104,9 +108,9 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
 </br>
 
 ## 📝 Documents
-- [포스터](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/poster.png)
-- [수행결과 보고서](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/%EC%88%98%ED%96%89%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
-- [발표 자료](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/presentation.pdf)
+- [Poster](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/poster.png)
+- [Report](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/%EC%88%98%ED%96%89%EA%B2%B0%EA%B3%BC%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
+- [Presentation](https://github.com/Team-WeQuiz/wequiz/blob/main/docs/presentation.pdf)
 
 </br>
 </br>
@@ -131,11 +135,11 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
            <td align='center'><a href="https://github.com/ryanbae94" target='_blank'><img src="https://avatars.githubusercontent.com/u/122738447?v=4" width="100" height="100"></td>
          </tr>
          <tr>
-           <td align='center'>박규연(팀장)</td>
-           <td align='center'>심재민</td>
-           <td align='center'>안금장</td>
-           <td align='center'>김우림</td>
-           <td align='center'>배준형</td>
+           <td align='center'>Kyuyeon Park(Team Lead)</td>
+           <td align='center'>Jaemin Shim</td>
+           <td align='center'>Keumjang Ahn</td>
+           <td align='center'>Woorim Kim</td>
+           <td align='center'>Junhyeong Bae</td>
          </tr>
          <tr>
            <td align='center'>🤖</td>
@@ -162,4 +166,4 @@ AI가 생성한 퀴즈를 친구들과 함께 푸는 서비스
 
 ---
 
-2024-1 KMUCS 캡스톤디자인 | Copyright 2024. `WeQuiz` All rights reserved.
+2024-1 KMUCS Capstone Design | Copyright 2024. `WeQuiz` All rights reserved.
