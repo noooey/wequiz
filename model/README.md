@@ -1,9 +1,9 @@
 # WeQuiz ML Server
 
 ## Overview
-1. 문서 요약
-2. 문제 생성
-3. 답안 채점
+1. Document Summarization  
+2. Question Generation  
+3. Answer Evaluation  
 
 ## Architecture
 
@@ -11,39 +11,11 @@
     <tbody>
         <tr>
           <tr>
-            <td align='center'>퀴즈, 문서 요약 생성 과정</td>
+            <td align='center'>Quiz and Document Summarization Workflow</td>
           </tr>
           <tr>
             <td align='center'><img src="assets/ml_architecture.png"></td>
           </tr>
     </tbody>
 </table>
-
-## Usage
-
-build
-```shell
-make build
-```
-
-run
-```shell
-make run
-```
-
-log
-```shell
-make log
-```
-
-exec
-```shell
-make exec
-```
-
-stop and remove container
-```shell
-make stop
-```
-
   
