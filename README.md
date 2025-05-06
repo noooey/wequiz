@@ -164,6 +164,29 @@ A multiplayer quiz service where you can solve AI-generated questions with frien
 </br>
 
 
+## 🐾 My Contributions (Kyuyeon Park - ML Engineer)
+I implemented the end-to-end quiz auto-generation pipeline based on RAG (Retrieval-Augmented Generation), enabling question creation from document content.
+
+
+This pipeline includes:
+
+- **Document Summarization**: Parsing and chunking uploaded PDFs using LangChain
+- **Question Generation**: Extracts key concepts from the document and uses retrieved chunks to generate contextually relevant quiz questions via LLM prompts
+- **Answer Evaluation**: Assessing user answers against ground-truth answers using similarity scoring
+
+
+<table>
+    <tbody>
+        <tr>
+          <tr>
+            <td align='center'>Quiz and Document Summarization Workflow</td>
+          </tr>
+          <tr>
+            <td align='center'><img src="model/assets/ml_architecture.png"></td>
+          </tr>
+    </tbody>
+</table>
+
 ---
 
 2024-1 KMUCS Capstone Design | Copyright 2024. `WeQuiz` All rights reserved.
