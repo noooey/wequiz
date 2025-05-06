@@ -165,7 +165,7 @@ A multiplayer quiz service where you can solve AI-generated questions with frien
 
 
 ## 🐾 My Contributions (Kyuyeon Park - ML Engineer)
-I implemented the end-to-end quiz auto-generation pipeline based on RAG (Retrieval-Augmented Generation), enabling question creation from document content.
+I implemented the end-to-end quiz auto-generation pipeline based on RAG (Retrieval-Augmented Generation), enabling question creation from document content. [ [👉 directory](https://github.com/noooey/wequiz/tree/main/model) ]
 
 
 This pipeline includes:
