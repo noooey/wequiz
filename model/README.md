@@ -1,4 +1,5 @@
 # WeQuiz ML Server
+> This folder contains the ML pipeline used to generate quizzes and evaluate answers based on PDF documents.
 
 ## Overview
 1. Document Summarization  
