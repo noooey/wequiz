@@ -5,7 +5,7 @@
 <a href='https://github.com/Team-WeQuiz/wequiz'><img src="https://github.com/Team-WeQuiz/wequiz/assets/66217855/6e9d764d-6be1-4c71-aa00-51aaee0dfa3e"></a>
 
 <h3>
- 🎲 Shall we quiz?... <a href="https://wequiz.kr/" target='_blank'>Click here!</a>
+ 🎲 Shall we quiz?... <a href="https://drive.google.com/file/d/1MAcTd1BX8kajpG4csPkAMGHl3BIZyXaG/view?usp=sharing" target='_blank'>Click here!</a>
 </h3>
 
 **The service is currently not running due to server costs.*
